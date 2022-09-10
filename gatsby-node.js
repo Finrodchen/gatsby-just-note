@@ -24,12 +24,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             }
           }
         }
-        allMarkdownRemark(
+        allMarkdownRemark{
           group(field: frontmatter___tags) {
             tag: fieldValue
             totalCount
          }
-        )
+        }
       }
     `
   )
