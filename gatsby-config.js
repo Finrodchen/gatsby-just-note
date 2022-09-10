@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Just Note`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Finrod Chen`,
+      summary: `New-Tech lover.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Thoughts and Ideas.`,
+    siteUrl: `https://just-note.xyz/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `finrodchen`,
     },
   },
   plugins: [
@@ -99,7 +99,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Just Note RSS Feed",
           },
         ],
       },
