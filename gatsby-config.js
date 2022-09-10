@@ -3,7 +3,7 @@ module.exports = {
     title: `Just Note`,
     author: {
       name: `Finrod Chen`,
-      summary: `New-Tech lover.`,
+      summary: `，這裡是我的Blog，紀錄想法和知識。`,
     },
     description: `Thoughts and Ideas.`,
     siteUrl: `https://just-note.xyz/`,
