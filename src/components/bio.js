@@ -51,7 +51,7 @@ const Bio = () => {
           Twitter
           </a>
           或是
-          <a href={`mailto:${social?.mail || ``}`}>
+          <a href="mailto:finrodchen@just-note.xyz">
           mail
           </a>
           與我聯繫。
