@@ -44,11 +44,17 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          Blog作者為：<strong>{author.name}</strong> {author?.summary || null}
+          我是<strong>{author.name}</strong> {author?.summary || null}
           {` `}
+          你可以用
           <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            你可以在Twitter與我聯繫。
+          Twitter
           </a>
+          或是
+          <a href={`mailto:${social?.mail || ``}`}>
+          mail
+          </a>
+          與我聯繫。
         </p>
       )}
     </div>

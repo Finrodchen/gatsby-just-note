@@ -9,6 +9,7 @@ module.exports = {
     siteUrl: `https://just-note.xyz/`,
     social: {
       twitter: `finrodchen`,
+      mail: `finrodchen@just-note.xyz`,
     },
   },
   plugins: [
